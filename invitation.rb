@@ -9,12 +9,12 @@ def letter
   #date of party
   puts "What is the date of the party?"
   date = gets.chomp
+  #time of the party
   puts "Is the party in the afternoon or evening?"
   time = gets.chomp
   if time == "afternoon"
     puts "12PM"
-  else 
+  else
     puts "6PM"
   end
   
-    
