@@ -28,3 +28,5 @@ puts "You are cordially invited to the #{party_name} on #{date} at #{time}. Plea
 puts "Sincerely,"
 puts "#{host}"
 end
+
+letter
