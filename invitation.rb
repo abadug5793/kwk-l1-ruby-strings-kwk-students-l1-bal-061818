@@ -13,4 +13,8 @@ def letter
   time = gets.chomp
   if time == "afternoon"
     puts "12PM"
+  else 
+    puts "6PM"
+  end
+  
     
