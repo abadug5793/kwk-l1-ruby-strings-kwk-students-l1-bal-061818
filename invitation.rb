@@ -17,4 +17,6 @@ def letter
   else
     puts "6PM"
   end
-  
+  #Finds who the host is
+  puts "Who is the host?"
+  host = gets.chomp
