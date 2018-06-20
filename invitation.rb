@@ -11,7 +11,7 @@ def letter
   date = gets.chomp
   #time of the party
   puts "Is the party in the afternoon or evening?"
-  time = gets.chomp
+  time = gets.chomp.downcase
   if time == "afternoon"
     puts "12PM"
   else
