@@ -25,3 +25,5 @@ end
 #displays the invitation
 puts "Dear #{who}"
 puts "You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP"
+puts "Sincerely,"
+puts "#{host}"
